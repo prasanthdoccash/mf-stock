@@ -44,7 +44,10 @@
             <script async src="https://cdn-static.trendlyne.com/static/js/webwidgets/tl-widgets.js" charset="utf-8"> </script>
         </div>
     </div>
-
+    <!-- Refresh Button Form -->
+        <form action="{{ url_for('refresh') }}" method="POST" class="mb-3">
+            <button type="submit" class="btn btn-secondary">Refresh</button>
+        </form>
 
         <table class="table table-striped">
             <thead>
